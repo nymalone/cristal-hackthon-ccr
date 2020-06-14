@@ -1,22 +1,22 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
-import './styles.css';
-import logo from '../../assets/flat.png';
-import health from '../../assets/health.png';
-import exercise from '../../assets/exercise.png';
-import food from '../../assets/food.png';
+import "./styles.css";
+import logo from "../../assets/flat.png";
+import health from "../../assets/health.png";
+import exercise from "../../assets/exercise.png";
+import food from "../../assets/food.png";
 
-import Footer from '../../components/Footer';
-import { Navbar, Row, Col, Container, Card, CardDeck } from 'react-bootstrap';
-import { FaRegStar, FaRoad, FaBed, FaRoute, FaMedal } from 'react-icons/fa';
+import Footer from "../../components/Footer";
+import { Navbar, Row, Col, Container, Card, CardDeck } from "react-bootstrap";
+import { FaRegStar, FaRoad, FaBed, FaRoute, FaMedal } from "react-icons/fa";
 
 export default class Home extends Component {
   render() {
     return (
       <div id="home-page">
         <Navbar id="navbar">
-        <Navbar.Brand>
+          <Navbar.Brand>
             <Link to="/">
               <img
                 src={logo}
@@ -69,7 +69,7 @@ export default class Home extends Component {
         <Container fluid id="destination">
           <Row>
             <Col>
-              <Link to="/destination">INICIAR NOVA VIAGEM</Link>
+              <Link to="/duration">INICIAR NOVA VIAGEM</Link>
             </Col>
           </Row>
         </Container>
@@ -91,7 +91,7 @@ export default class Home extends Component {
               </p>
               <span>
                 VOCÊ <br />
-                3.000 pontos{' '}
+                3.000 pontos{" "}
               </span>
               <br />
               <br />
@@ -107,8 +107,8 @@ export default class Home extends Component {
             <Card.Img variant="top" src={health} />
             <Card.Body>
               <a href="/">
-                {' '}
-                <h3>Dicas de Saúde</h3>{' '}
+                {" "}
+                <h3>Dicas de Saúde</h3>{" "}
               </a>
               <Card.Text>
                 Tem alguma dúvida sobre seus remédios? Quer saber como melhorar
@@ -120,8 +120,8 @@ export default class Home extends Component {
             <Card.Img variant="top" src={exercise} />
             <Card.Body>
               <a href="/">
-                {' '}
-                <h3>Dicas de Exercícios</h3>{' '}
+                {" "}
+                <h3>Dicas de Exercícios</h3>{" "}
               </a>
               <Card.Text>
                 Pratique alongamentos junto de profissionais. Acesse nosso
@@ -136,8 +136,8 @@ export default class Home extends Component {
               <br />
               <br />
               <a href="/">
-                {' '}
-                <h3>Dicas de Alimentação</h3>{' '}
+                {" "}
+                <h3>Dicas de Alimentação</h3>{" "}
               </a>
               <Card.Text>
                 Veja as dicas de outros caminhoneiros dos melhores restaurantes

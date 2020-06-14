@@ -1,0 +1,62 @@
+#navbar {
+  background-color: #ffc107;
+  width: 100%;
+}
+.welcome {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+}
+
+#stats {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  text-align: inherit;
+}
+
+.star-icon {
+  width: 63px;
+  height: 63px;
+  color: goldenrod;
+  margin-bottom: 10px;
+}
+
+.road-icon {
+  width: 63px;
+  height: 63px;
+  margin-bottom: 10px;
+}
+
+.bed-icon {
+  width: 63px;
+  height: 63px;
+  color: #2a9d8f;
+  margin-bottom: 10px;
+}
+
+.route-icon {
+  width: 63px;
+  height: 63px;
+  color: rgb(155, 25, 25);
+  margin-bottom: 10px;
+}
+
+#duration {
+  width: 200px;
+  border: 2px solid #ffc107;
+  border-radius: 8px;
+  padding: 8px;
+  margin-top: 20px;
+}
+
+#duration a {
+  color: rgb(155, 25, 25);
+  text-decoration: none;
+  font-weight: 700;
+}
