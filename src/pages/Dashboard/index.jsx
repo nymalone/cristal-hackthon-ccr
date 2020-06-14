@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-//import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import './styles.css';
 import logo from '../../assets/flat.png';
@@ -60,6 +60,14 @@ export default class Home extends Component {
                 <br />
                 00 destinos
               </Card.Subtitle>
+            </Col>
+          </Row>
+        </Container>
+
+        <Container fluid id="destination">
+          <Row>
+            <Col>
+              <Link to="/destination">INICIAR NOVA VIAGEM</Link>
             </Col>
           </Row>
         </Container>

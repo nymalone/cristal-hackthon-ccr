@@ -47,6 +47,20 @@
   margin-bottom: 10px;
 }
 
+#destination {
+  width: 200px;
+  border: 2px solid #ffc107;
+  border-radius: 8px;
+  padding: 8px;
+  margin-top: 20px;
+}
+
+#destination a {
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+}
+
 #ranking {
   border: 1px solid #ccc;
   border-radius: 8px;
