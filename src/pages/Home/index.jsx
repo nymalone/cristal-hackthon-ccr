@@ -36,8 +36,6 @@ export default class Home extends Component {
         </Navbar>
 
         <br />
-        <br />
-        <br />
 
         <Form>
           <br />

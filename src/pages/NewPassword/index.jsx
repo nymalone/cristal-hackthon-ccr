@@ -35,8 +35,7 @@ export default class SignUp extends Component {
           </Navbar.Collapse>
         </Navbar>
         <br />
-        <br />
-        <br />
+
         <Form>
           <br />
           <h2>Esqueceu sua senha?</h2>
