@@ -13,13 +13,15 @@ export default class Home extends Component {
       <div id="home-page">
         <Navbar id="navbar">
           <Navbar.Brand>
-            <img
-              src={logo}
-              width="70"
-              height="70"
-              className="d-inline-block align-top"
-              alt="logo cristal"
-            />
+            <Link to="/">
+              <img
+                src={logo}
+                width="70"
+                height="70"
+                className="d-inline-block align-top"
+                alt="logo cristal"
+              />
+            </Link>
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
@@ -53,7 +55,7 @@ export default class Home extends Component {
             />
           </Form.Group>
           <Button id="btn-login" variant="info">
-            <Link to="/">Entrar</Link>
+            <Link to="/dashboard">Entrar</Link>
           </Button>
           <br />
           <br />

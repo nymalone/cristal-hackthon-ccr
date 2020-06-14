@@ -15,9 +15,9 @@ button {
 }
 
 form {
-  width: 400px;
+  width: 350px !important;
   margin: 0 auto;
-  margin-top: 10%;
+
   padding: 30px 45px 30px 45px;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -29,7 +29,7 @@ form {
 }
 
 #btn-login {
-  width: 310px;
+  width: 257px !important;
   border-radius: 5px;
 }
 
