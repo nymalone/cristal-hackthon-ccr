@@ -1,5 +1,6 @@
 #navbar {
   background-color: #ffc107;
+  width: 100%;
 }
 .welcome {
   font-size: 20px;
@@ -44,4 +45,51 @@
   height: 63px;
   color: rgb(155, 25, 25);
   margin-bottom: 10px;
+}
+
+#ranking {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 660px;
+  margin-top: 30px;
+  background-color: #f6dd90;
+}
+
+#ranking svg {
+  width: 25px;
+  height: 25px;
+}
+
+#ranking p {
+  font-size: 21px;
+}
+
+#ranking span {
+  font-size: 22px;
+  font-weight: 700;
+  color: black;
+}
+
+#ranking button {
+  border: none;
+  background-color: #fff;
+  color: black;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.tips {
+  margin: 0;
+  padding: 0;
+}
+.tips a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.tips a:hover {
+  color: #ffc107;
 }
