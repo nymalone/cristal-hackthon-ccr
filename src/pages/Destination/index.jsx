@@ -98,7 +98,7 @@ export default class Home extends Component {
             </Form.Group>
           </Form.Row>
           <Button variant="info" type="submit">
-            Começar!
+            <Link to="/duration">Começar!</Link>
           </Button>
         </Form>
         <Footer />

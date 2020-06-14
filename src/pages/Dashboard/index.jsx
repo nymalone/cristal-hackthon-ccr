@@ -69,7 +69,7 @@ export default class Home extends Component {
         <Container fluid id="destination">
           <Row>
             <Col>
-              <Link to="/duration">INICIAR NOVA VIAGEM</Link>
+              <Link to="/destination">INICIAR NOVA VIAGEM</Link>
             </Col>
           </Row>
         </Container>
