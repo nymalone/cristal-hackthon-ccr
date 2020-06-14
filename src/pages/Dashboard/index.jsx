@@ -16,14 +16,16 @@ export default class Home extends Component {
     return (
       <div id="home-page">
         <Navbar id="navbar">
-          <Navbar.Brand>
-            <img
-              src={logo}
-              width="70"
-              height="70"
-              className="d-inline-block align-top"
-              alt="logo cristal"
-            />
+        <Navbar.Brand>
+            <Link to="/">
+              <img
+                src={logo}
+                width="70"
+                height="70"
+                className="d-inline-block align-top"
+                alt="logo cristal"
+              />
+            </Link>
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">

@@ -26,7 +26,7 @@ export default class Home extends Component {
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             <Navbar.Text>
-              <Button variant="info">
+              <Button id="btn-signup" variant="info">
                 <Link to="/signup" id="btn-signup">
                   Criar Conta
                 </Link>
