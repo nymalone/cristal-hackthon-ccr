@@ -1,0 +1,12 @@
+#footer {
+  background-color: #ffc107;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  color: #fff;
+  text-align: start;
+}
+p {
+  margin: 15px;
+}

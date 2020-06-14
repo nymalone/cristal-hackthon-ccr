@@ -1,0 +1,42 @@
+navbar {
+  background-color: #ffc107;
+  width: 100%;
+}
+
+#btn-signup {
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+button {
+  width: 112px;
+  margin-top: 10px;
+}
+
+form {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 10%;
+  padding: 30px 45px 30px 45px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+#input {
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+#btn-login {
+  width: 310px;
+  border-radius: 5px;
+}
+
+#btn-login a {
+  font-size: 19px;
+  color: #fff;
+}
+a {
+  font-weight: 500;
+}
