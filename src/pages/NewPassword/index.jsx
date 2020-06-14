@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
-import './styles.css';
-import logo from '../../assets/flat.png';
-import { Navbar, Button, Form } from 'react-bootstrap';
+import "./styles.css";
+import logo from "../../assets/flat.png";
+import { Navbar, Button, Form } from "react-bootstrap";
 
-import Footer from '../../components/Footer';
+import Footer from "../../components/Footer";
 
 export default class SignUp extends Component {
   render() {
@@ -34,7 +34,9 @@ export default class SignUp extends Component {
             </Navbar.Text>
           </Navbar.Collapse>
         </Navbar>
-
+        <br />
+        <br />
+        <br />
         <Form>
           <br />
           <h2>Esqueceu sua senha?</h2>
