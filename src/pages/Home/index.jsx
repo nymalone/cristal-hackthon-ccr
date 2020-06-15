@@ -27,9 +27,8 @@ export default class Home extends Component {
           <Navbar.Collapse className="justify-content-end">
             <Navbar.Text>
               <Button id="btn-signup" variant="info">
-                <Link to="/signup" id="btn-signup">
-                  Criar Conta
-                </Link>
+                <a href="http://t.me/CristalCCRBot">Entrar</a>
+
               </Button>
             </Navbar.Text>
           </Navbar.Collapse>
@@ -57,7 +56,9 @@ export default class Home extends Component {
             />
           </Form.Group>
           <Button id="btn-login" variant="info">
-            <a href="http://t.me/CristalCCRBot">Entrar</a>
+            <Link to="/dashboard" id="btn-signup">
+              Entrar
+            </Link>
           </Button>
           <br />
           <br />
