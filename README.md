@@ -2,7 +2,9 @@
     <img alt="Cristal" title="Cristal" src='./src/assets/logo.png' width="250px" />
 </h1>
 
-# Cristal!
+<p align="center">
+Cristal
+</p>
 
 #### [Check the site](https://cristal.netlify.app/)
 
