@@ -33,43 +33,15 @@ export default class Home extends Component {
           </Navbar.Collapse>
         </Navbar>
 
-        <Container id="stats">
-          <Row xs={5}>
-            <Col className="mx-2">
-              <Card.Subtitle className="subtitle mt-3 my-3">
-                <FaRegStar className="star-icon" />
-                <br />
-                2340 pontos
-              </Card.Subtitle>
-            </Col>
-            <Col className="mx-2">
-              <Card.Subtitle className="subtitle mt-3 my-3">
-                <FaRoad className="road-icon" />
-                <br />
-                400km rodados
-              </Card.Subtitle>
-            </Col>
-            <Col className="mx-2">
-              <Card.Subtitle className="subtitle mt-3 my-3">
-                <FaBed className="bed-icon" />
-                <br />
-                06h de sono
-              </Card.Subtitle>
-            </Col>
-            <Col className="mx-2">
-              <Card.Subtitle className="subtitle mt-3 my-3">
-                <FaRoute className="route-icon" />
-                <br />
-                01 destinos
-              </Card.Subtitle>
-            </Col>
-          </Row>
-        </Container>
-
-        <Container fluid id="duration">
-          <Row>
-            <Col>
-              <Link to="/dashboard">ENCERRAR VIAGEM</Link>
+        <Container id="road">
+          <Row xs={12}>
+            <Col className="mt-5">
+              <h4>
+                Boa viagem! Dirija com cuidado e siga as nossas recomendações!
+                Ao chegar no seu destino envie a palavra <span>DESTINO</span>{" "}
+                para nossa conversa no whatsapp. <br />
+                Aguardo você!
+              </h4>
             </Col>
           </Row>
         </Container>
