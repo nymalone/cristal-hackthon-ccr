@@ -18,7 +18,7 @@ Por meio de um sistema de gamificação baseado em atividades rotineiras, ofere�
 
 Que tal a gente conversar um pouco? ☺️
 
-## :bookmark:  Solução
+## 🙌  Solução
 A Cristal é a assistente virtual dos caminhoneiros que por meio da gamificação oferece uma jornada mais segura e saudável, gerando benefícios futuros como:
 
 ✓ Premiações
