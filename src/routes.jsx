@@ -7,6 +7,7 @@ import NewPassword from "./pages/NewPassword";
 import Dashboard from "./pages/Dashboard";
 import Destination from "./pages/Destination";
 import OnTheRoad from "./pages/OnTheRoad";
+import NewClient from "./pages/NewClient";
 
 const Routes = () => {
   return (
@@ -17,6 +18,7 @@ const Routes = () => {
       <Route path="/dashboard" component={Dashboard} />
       <Route path="/destination" component={Destination} />
       <Route path="/duration" component={OnTheRoad} />
+      <Route path="/newclient" component={NewClient} />
     </BrowserRouter>
   );
 };

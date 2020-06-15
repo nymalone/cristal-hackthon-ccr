@@ -7,7 +7,7 @@ import { Navbar, Button, Form } from "react-bootstrap";
 
 import Footer from "../../components/Footer";
 
-export default class Home extends Component {
+export default class SignUp extends Component {
   render() {
     return (
       <div id="home-page">
@@ -26,27 +26,40 @@ export default class Home extends Component {
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             <Navbar.Text>
-              <Button id="btn-signup" variant="info">
-                <Link to="/signup" id="btn-signup">
-                  Criar Conta
+              <Button variant="info">
+                <Link to="/" id="btn-signup">
+                  Entrar
                 </Link>
               </Button>
             </Navbar.Text>
           </Navbar.Collapse>
         </Navbar>
-
         <br />
 
         <Form>
           <br />
-          <h2>Vamos começar!</h2>
+          <h2>Inscreva-se!</h2>
           <br />
           <br />
-          <Form.Group controlId="formGroupEmail">
+          <Form.Group>
+            <Form.Control
+              id="input"
+              type="text"
+              placeholder="Digite seu CNPJ"
+            />
+          </Form.Group>
+          <Form.Group>
+            <Form.Control
+              id="input"
+              type="text"
+              placeholder="Digite o nome de sua empresa"
+            />
+          </Form.Group>
+          <Form.Group>
             <Form.Control
               id="input"
               type="email"
-              placeholder="Digite seu email, telefene ou CPF"
+              placeholder="Digite o seu e-mail"
             />
           </Form.Group>
           <Form.Group controlId="formGroupPassword">
@@ -56,12 +69,18 @@ export default class Home extends Component {
               placeholder="Digite sua senha"
             />
           </Form.Group>
+          <Form.Group controlId="formGroupPassword">
+            <Form.Control
+              id="input"
+              type="password"
+              placeholder="Confirme sua senha"
+            />
+          </Form.Group>
           <Button id="btn-login" variant="info">
-            <a href="http://t.me/CristalCCRBot">Entrar</a>
+            <Link to="/">Criar minha conta</Link>
           </Button>
           <br />
           <br />
-          <Link to="/newpassword"> Esqueci minha senha</Link>
         </Form>
 
         <Footer />
