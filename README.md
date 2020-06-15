@@ -1,14 +1,17 @@
 <h1 align="center">
     <img alt="Cristal" title="Cristal" src='./src/assets/logo.png' width="250px" />
+     <br><br>
+    <b>Cristal - sua parceira de viagem </b>  
+    <br>
 </h1>
 
-## Cristal
+#### [Check the site](https://cristal.netlify.app/) :mobile:
 
-#### [Check the site](https://cristal.netlify.app/)
+## :bookmark: Sobre
 
-### How to run this application
+## Como usar
 
-On you terminal run the following commands:
+No seu terminal, rode os seguintes comandos:
 
 ```
 $ git clone https://github.com/nymalone/hack-ccr
@@ -16,6 +19,6 @@ $ cd hack-crr
 $ npm install
 $ npm start
 
-# Your application will be running on port 3000
+# Sua aplicação estará rodando na port 3000
 
 ```
