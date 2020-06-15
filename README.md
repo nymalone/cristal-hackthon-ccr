@@ -7,7 +7,18 @@
 
 ## :iphone: [Acesse o site](https://cristal.netlify.app/) 
 
-## :bookmark:  Sobre
+## :bookmark: Sobre
+Oi, sou a Cristal, a assistente virtual preferida dos caminhoneiros. 
+
+Eu premio e cuido do bem-estar de quem bate um papo comigo. 
+
+Tenho conhecimentos na área de saúde e sempre estou mantendo contato com meus amigos, mandando alertas sobre a quantidade de horas de sono, pausas para alimentação e horas dirigidas.
+
+Por meio de um sistema de gamificação baseado em atividades rotineiras, ofereço benefícios como descontos em planos de saúde e de seguros, vantagens na hora da alimentação e referências para vagas de emprego. 
+
+Que tal a gente conversar um pouco? ☺️
+
+## 🙌  Solução
 A Cristal é a assistente virtual dos caminhoneiros que por meio da gamificação oferece uma jornada mais segura e saudável, gerando benefícios futuros como:
 
 ✓ Premiações
